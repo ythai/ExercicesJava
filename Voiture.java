@@ -7,7 +7,7 @@ public class Voiture {
 
     public Voiture(String couleur, String marque, String modele){
         this.couleur = couleur;
-        this.marque = marque;
+        setMarque(marque);
         this.modele = modele;
     }
 
