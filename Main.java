@@ -1,7 +1,7 @@
-public class Main {
+public class Main{
 
     public static void main (String[] args){
-        Voiture voiture1 = new Voiture();
-        voiture1.afficher();
+        Vehicule vehicule1 = new Vehicule();
+        vehicule1.afficher();
     }
 }
