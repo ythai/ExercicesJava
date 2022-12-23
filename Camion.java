@@ -1,5 +1,10 @@
 public class Camion extends Vehicule {
 
+    public Camion(){
+        super();
+        this.setModele("T440");
+    }
+
     private int charge;
 
     public int getCharge() {
