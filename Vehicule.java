@@ -5,6 +5,8 @@ public abstract class Vehicule {
     private int compteur = 0;
     private boolean demarre = false;
 
+    private String type;
+
     public Vehicule(String couleur, String marque, String modele){
         setCouleur(couleur);
         setMarque(marque);
