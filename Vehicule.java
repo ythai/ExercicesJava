@@ -12,7 +12,7 @@ public abstract class Vehicule {
     }
 
     public Vehicule(){
-        this.couleur = "blanc";
+        this.couleur = "Blanc";
         this.marque = "Renault";
         this.modele = "Megane";
     }
@@ -33,7 +33,7 @@ public abstract class Vehicule {
     }
 
     public void afficher(){
-        System.out.println("-- Infos sur la voiture --");
+        System.out.println("-- Infos sur le véhicule --");
         System.out.println("couleur : " + couleur);
         System.out.println("Marque : " + marque);
         System.out.println("Modèle : " + modele);
